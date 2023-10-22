@@ -21,7 +21,7 @@ a {
 
 :root {
   --black-color: #121212;
-  --red-color: #ee001c;
+  --red-color: #e90202;
   --family-font: "Montserrat", sans-serif;
   --title-font: "Alumni Sans Collegiate One", sans-serif;
 }
@@ -29,7 +29,6 @@ a {
 #navbar {
   position: fixed;
   width: 100%;
-  height: 100%;
   font-family: var(--family-font);
 }
 #navbar .navbar__container {
@@ -95,14 +94,70 @@ a {
 }
 #home .container .calculator {
   width: 50%;
+  display: grid;
+  place-items: center;
 }
 @media only screen and (max-width: 920px) {
   #home .container .calculator {
     width: 100%;
+    margin-bottom: 36px;
   }
 }
 @media only screen and (max-width: 920px) {
   #home .container {
     flex-direction: column-reverse;
   }
+}
+
+#calculator {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  border: 2px solid var(--black-color);
+  border-radius: 12px;
+  box-shadow: 6px 6px 0px 1px rgb(0, 0, 0);
+  overflow: hidden;
+}
+#calculator .calculator-grid {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-rows: minmax(7rem, auto);
+}
+#calculator .display {
+  max-width: 290px;
+  padding: 1rem 0.5rem;
+  font-size: 2rem;
+  text-align: right;
+  margin: 12px 6px;
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+#calculator .display .previous-operand {
+  color: rgba(0, 0, 0, 0.342);
+  font-size: 1.2rem;
+}
+#calculator .buttons {
+  padding: 36px 6px 18px 6px;
+  background: rgb(252, 176, 176);
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+#calculator .buttons button {
+  font-family: "Poppins", sans-serif;
+  width: 60px;
+  height: 60px;
+  font-size: 1.2rem;
+  margin: 6px;
+  background: #fff;
+  border: 2px solid var(--black-color);
+  border-radius: 18px;
+  font-weight: 200;
+  box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
 }/*# sourceMappingURL=index.css.map */

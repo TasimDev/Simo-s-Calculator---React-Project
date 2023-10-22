@@ -7,7 +7,7 @@ const Home = () => {
             <div className="container">
 
                 <div className="title">
-                    <h1>Simo's<br />Amazing<br />Calculator</h1>
+                    <h1>Simo's<br />Calculator</h1>
                 </div>
                 <div className="calculator">
                     <Calculator />
