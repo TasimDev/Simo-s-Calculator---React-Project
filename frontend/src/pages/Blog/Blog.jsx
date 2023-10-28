@@ -9,9 +9,9 @@ const Blog = () => {
             <div className="blog-page-header container">
                 <h1>Welcome to Simo's Blog Page</h1>
             </div>
-        
-            <div className="card-section">
 
+            <div className="card-section">
+                
             </div>
         </div>
 

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -160,4 +161,55 @@ a {
   border-radius: 18px;
   font-weight: 200;
   box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
+}
+
+#contact {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(252, 176, 176);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact .wrapper {
+  width: 40%;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 1px 1px 56px 12px rgba(0, 0, 0, 0.1215686275);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#contact .wrapper h1 {
+  font-weight: 600;
+}
+#contact .wrapper h1 span {
+  color: var(--red-color);
+}
+#contact .wrapper input,
+#contact .wrapper textarea {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  font-family: "Poppins", sans-serif;
+}
+#contact .wrapper button {
+  margin-top: 12px;
+  width: 160px;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: var(--red-color);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+@media only screen and (max-width: 920px) {
+  #contact .wrapper {
+    width: 80%;
+  }
 }/*# sourceMappingURL=index.css.map */
