@@ -1,3 +1,4 @@
+
 #calculator {
 
     width: fit-content;
@@ -26,6 +27,7 @@
         align-items: flex-end;
         word-wrap: break-word;
         word-break: break-all;
+        font-weight: 700;
 
         .previous-operand {
             color: rgba(0, 0, 0, 0.342);
@@ -41,6 +43,7 @@
         display: grid;
         grid-template-columns: repeat(4, auto);
 
+
         button {
             font-family: 'Poppins', sans-serif;
             width: 60px;
@@ -52,6 +55,7 @@
             border-radius: 18px;
             font-weight: 200;
             box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+            font-weight: 700;
 
         }
     }

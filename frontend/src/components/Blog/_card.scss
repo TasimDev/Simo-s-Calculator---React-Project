@@ -1,0 +1,36 @@
+.blog-card {
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    padding: 2em;
+    border-radius: 12px;
+    color: black;
+
+    &:hover {
+        box-shadow: 1px 1px 12px 6px rgba(0, 0, 0, 0.096);
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+
+    .blog-content {
+        margin-bottom: 1.6rem;
+        text-align: justify;
+        color: rgba(0, 0, 0, 0.678);
+    }
+
+
+    .blog-info {
+        display: flex;
+        justify-content: space-between;
+
+        .author {
+            color: var(--red-color);
+        }
+
+
+    }
+
+}

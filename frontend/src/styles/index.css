@@ -137,6 +137,7 @@ a {
   align-items: flex-end;
   word-wrap: break-word;
   word-break: break-all;
+  font-weight: 700;
 }
 #calculator .display .previous-operand {
   color: rgba(0, 0, 0, 0.342);
@@ -161,6 +162,7 @@ a {
   border-radius: 18px;
   font-weight: 200;
   box-shadow: 4px 4px 0px 0px rgb(0, 0, 0);
+  font-weight: 700;
 }
 
 #contact {
@@ -212,4 +214,96 @@ a {
   #contact .wrapper {
     width: 80%;
   }
+}
+
+.blog-page {
+  display: flex;
+  flex-direction: column;
+  background: rgb(243, 243, 243);
+}
+.blog-page .blog-page-header {
+  background: rgb(255, 143, 143);
+  color: #fff;
+  width: 100%;
+  padding: 10rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-page .blog-page-header h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.6em;
+  padding: 1.2em;
+}
+.blog-page .blog-page-header h1 span {
+  color: var(--red-color);
+}
+.blog-page .card-section {
+  padding: 6em 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(369px, 1fr));
+  gap: 5em;
+}
+
+.blog-card {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  padding: 2em;
+  border-radius: 12px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2em;
+}
+.blog-card:hover {
+  box-shadow: 1px 1px 12px 6px rgba(0, 0, 0, 0.096);
+}
+.blog-card .blog-content {
+  margin-bottom: 1.6rem;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.678);
+}
+.blog-card .blog-info {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-card .blog-info .author {
+  color: var(--red-color);
+}
+
+.header-details {
+  background: rgb(255, 143, 143);
+  color: #fff;
+  width: 100%;
+  padding: 10rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-details .title-details h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.6em;
+  padding: 1.2em;
+  color: var(--red-color);
+}
+.header-details .title-details .info-details {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.body-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 12rem 0;
+}
+.body-details .param {
+  width: 60%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=index.css.map */

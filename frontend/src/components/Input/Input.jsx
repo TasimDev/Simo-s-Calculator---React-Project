@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Input = ({ type, id, placeholder }) => {
+
     return (
         <input
             id={id}
